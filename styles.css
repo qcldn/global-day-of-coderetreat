@@ -1,0 +1,91 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20pt;
+  margin: 0;
+}
+
+section {
+  margin: 40px 0;
+  background-color: lightgrey;
+  padding: 20px 40px;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+.join-us {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.buttons {
+  height: 100px;
+  width: 884px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.cta {
+  background-color: #57B26E;
+  text-decoration: none;
+  color: #F4F9F0;
+  font-size: 1.2em;
+  padding: 1.3483333333em;
+  text-align: center;
+  transition: linear 0.5s;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.cta:hover {
+  background-color: #7EC486;
+}
+
+.when-where-details {
+  display: flex;
+}
+
+.timing, .location {
+  width: 50%;
+}
+
+.logos {
+  width: 607px;
+  margin: 0 auto;
+}
+.sponsor-logo {
+  width: 300px;
+  vertical-align: middle;
+}
+
+.question {
+  font-weight: 700;
+}
+
+.community-logos {
+  display: flex;
+  width: 816px;
+  margin: 0 auto 40px;
+}
+
+.community-logo {
+  height: 200px;
+}
+
+.loc {
+  margin-right: 35px;
+}
