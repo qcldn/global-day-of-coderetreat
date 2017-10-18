@@ -18,6 +18,8 @@ nav a {
 nav ul {
 	margin: auto;
 	width: 900px;
+  list-style: none;
+  display: flex;
 }
 
 h1, h2, h3, h4 {
@@ -86,20 +88,13 @@ li {
   margin-right: 20px;
 }
 
-.navigation {
-  list-style: none;
-  display: flex;
-}
-
 .navigation li {
   margin-right: 20px;
 }
 
 .buttons {
-  height: 100px;
-  width: 884px;
-  margin: 0 auto;
   padding-top: 40px;
+  text-align: center;
 }
 
 .cta {
@@ -109,9 +104,10 @@ li {
   font-size: 1.2em;
   padding: 1.3483333333em;
   text-align: center;
+  display: inline-block;
   transition: linear 0.5s;
   border-radius: 4px;
-  width: 250px;
+  margin: 10px;
 }
 
 .cta:hover {
@@ -151,4 +147,50 @@ li {
 
 .loc {
   margin-right: 35px;
+}
+
+@media screen and (max-width: 768px) {
+	nav ul {
+		display: block;
+	}
+
+	.community-logos {
+		display: block;
+		width: 100%;
+	}
+
+  #sign-up img {
+		display: block;
+		margin: auto;
+	}
+
+  #sign-up h3 {
+		display: block;
+		clear: both;
+	}
+
+  #buttons {
+    width: 100%;
+	}
+
+  .cta {
+    display: block;
+	}
+
+	.when-where-details {
+		display: block;
+	}
+
+	.timing, .location {
+		width: 100%;
+	}
+
+  .logos {
+    width: 100%;
+  }
+
+  .logos img {
+    display: block;
+		margin: auto;
+	}
 }
